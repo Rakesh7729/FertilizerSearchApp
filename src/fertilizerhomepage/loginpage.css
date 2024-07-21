@@ -1,0 +1,56 @@
+.signup-container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./fertilizerbackground.jpg'); 
+    background-size: cover;
+    background-position: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: flex-start;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.signup-form h2 {
+    text-align: center;
+}
+
+.signup-form label {
+    margin-bottom: 10px;
+}
+
+.signup-form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.signup-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.signup-form button:hover {
+    background-color: #0056b3;
+}
+
+.signup-form p {
+    color: red;
+    text-align: center;
+}
+
