@@ -2,22 +2,21 @@
     display: flex;
     align-items: center;
     height: 100vh;
-    background-image: url('./fertilizerbackground.jpg'); 
     background-size: cover;
     background-position: center;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: stretch;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .signup-form {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    background: rgba(255, 255, 255, 0.8);
+    width: 45%;
     padding: 20px;
     border-radius: 10px;
+    background: radial-gradient(black, transparent);
 }
 
 .signup-form h2 {
@@ -54,3 +53,16 @@
     text-align: center;
 }
 
+.image-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}

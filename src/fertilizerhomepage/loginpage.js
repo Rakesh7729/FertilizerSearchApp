@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './loginpage.css';
+// import fertilizerbackground from './fertilizerbackground.jpg'
+import Acemain from './Acemain.webp';
 
-function SignupPage() {
+function LoginPage() {
     const [username, setUsername] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -21,7 +23,7 @@ function SignupPage() {
         <>
             <div className="signup-container">
                 <form onSubmit={handleSignup} className="signup-form">
-                    <h2>Sign Up</h2>
+                    <h2>Sign Up Page</h2>
                     <label>
                         Username:
                         <input
@@ -61,9 +63,15 @@ function SignupPage() {
                     <button type="submit">Sign Up</button>
                     {message && <p>{message}</p>}
                 </form>
+                <div>
+                    <form className=''>
+                       {/* <img src= {fertilizerbackground} alt='fertilizerbackground'/> */}
+                       <img src= {Acemain} alt='AcemainPhoto'/>
+                    </form>
+                </div>
             </div>
         </>
     );
 }
 
-export default SignupPage;
+export default LoginPage;

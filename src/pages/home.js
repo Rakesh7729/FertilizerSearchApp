@@ -1,15 +1,11 @@
 
-import LoginPage from "../fertilizerhomepage/loginpage";
+import ProducPage from "../frontpage/ProductPage";
 
 const HomePage = () => {
     return (
-        <div>
-            <header>
-                <LoginPage isHome={true}/>
-            </header>
-        </div>
+        <>
+            <ProducPage isHome={true} />
+        </>
     )
 }
-
 export default HomePage;
-
