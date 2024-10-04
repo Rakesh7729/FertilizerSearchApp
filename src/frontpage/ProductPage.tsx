@@ -1,11 +1,14 @@
 import './ProductPage.css';
+import Acemain from "../images/Acemain.webp";
 
 function ProductPage() {
     return (
         <>
-            <h1 className='pro'>
-                ProductHomePage
-            </h1>
+           <div>
+                <input type='search'/>
+                <button>Log In</button>
+           </div>
+
         </>
     );
 }
